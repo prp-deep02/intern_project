@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #from pypdf import PdfReader
 #reader = PdfReader("Intern.pdf")
 #print("Number of pages:", len(reader.pages))    
@@ -20,3 +21,18 @@
 #print("The song",playlist[-1],"is added to the queue")
 #print(playlist)
 
+=======
+# from pypdf import PdfReader
+# reader = PdfReader("sample.pdf")
+# pages = len(reader.pages)
+# print(pages)
+# page = reader.pages[0]
+
+# for i in range(pages):
+#     page = reader.pages[i]
+#     print(page.extract_text())-------------------------------------------------------------------
+
+import langchain
+
+print(langchain.__version__)
+>>>>>>> 46f29625bb7b97eb356132268cfa07f280a62e7f
